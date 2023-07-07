@@ -14,6 +14,47 @@ public class Employee {
         this.phoneNumber = phoneNumber;
         this.age = age;
     }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public short getAge() {
+        return age;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setAge(short age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Employee data: {" +
