@@ -28,7 +28,7 @@ public class Burger {
     public Burger(String bun, String meat, String cheese) // подвійне м'ясо
     {
         this.bun = bun;
-        this.meat = meat + "подвійне";
+        this.meat = meat + " подвійно";
         this.cheese = cheese;
         this.vegetables = "";
         this.sause = "з майонезом";
