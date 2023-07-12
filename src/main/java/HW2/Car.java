@@ -1,4 +1,4 @@
-package lesson2;
+package HW2;
 
 public class Car {
     public void start() {
