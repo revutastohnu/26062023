@@ -9,7 +9,7 @@ public class App {
         figures[1] = new Triangle(4, 3);
         figures[2] = new Square(6);
 
-        int totalArea = 0;
+        double totalArea = 0;
         for (Figure figure : figures) {
             totalArea += figure.getArea();
         }

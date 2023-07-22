@@ -10,6 +10,6 @@ public class Circle implements Figure {
     }
     @Override
     public double getArea() {
-        return Math.PI * radius * radius;
+        return Math.PI * Math.pow(radius,2);
     }
 }
