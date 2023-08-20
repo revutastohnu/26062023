@@ -1,8 +1,8 @@
 package coffee.order;
 
 public class Order {
-    int number;
-    String name;
+   private int number;
+    private String name;
 
     public Order(int number, String name) {
         this.number = number;
@@ -12,6 +12,14 @@ public class Order {
     @Override
     public String toString() {
         return "Num: " + number + " | Name: " + name;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public String getName() {
+        return name;
     }
 }
 

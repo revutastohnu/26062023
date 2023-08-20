@@ -23,14 +23,14 @@ public class CoffeeOrderBoard{
     }
 
     public void deliver(int orderNumber) {
-        orders.removeIf(order -> order.number == orderNumber);
+        orders.removeIf(order -> order.getNumber() == orderNumber);
     }
 
     public void draw() {
         System.out.println("=============");
         System.out.println("Num | Name");
         for (Order order : orders) {
-            System.out.println(order.number + "   | " + order.name);
+            System.out.println(order.getNumber() + "   | " + order.getName());
         }
     }
 }
