@@ -18,7 +18,7 @@ public class CharFrequencyRunnable implements Runnable {
         for (char c : content.toCharArray()) {
             frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
         }
-        try (FileWriter writer = new FileWriter("CharFrequency.txt")) {
+        try (FileWriter writer = new FileWriter("src/main/java/hw21/CharFrequency.txt")) {
             for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
                 writer.write(entry.getKey() + ": " + entry.getValue() + "\n");
             }

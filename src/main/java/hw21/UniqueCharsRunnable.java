@@ -13,7 +13,7 @@ public class UniqueCharsRunnable implements Runnable {
     @Override
     public void run() {
         String uniqueChars = content.replaceAll("(.)(?=.*\\1)", "");
-        try (FileWriter writer = new FileWriter("UniqueChars.txt")) {
+        try (FileWriter writer = new FileWriter("src/main/java/hw21/UniqueChars.txt")) {
             writer.write("Unique characters: " + uniqueChars);
         } catch (IOException e) {
             e.printStackTrace();
