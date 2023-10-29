@@ -1,4 +1,4 @@
-package homework22;
+package hw22;
 
 import java.util.LinkedList;
 import java.util.Queue;

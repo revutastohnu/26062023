@@ -1,4 +1,4 @@
-package homework22;
+package hw22;
 
 public class Car {
     private String name;
