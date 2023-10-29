@@ -3,7 +3,7 @@ package hw22;
 public class Car {
     private String name;
     private int fuel;
-    private int tankCapacity;
+    private volatile int tankCapacity;
 
     public Car(String name, int fuel, int tankCapacity) {
         this.name = name;
