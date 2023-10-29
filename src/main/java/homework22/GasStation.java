@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class GasStation {
     private final Queue<Car> queue = new LinkedList<>();
-    private int fuelTank;
+    private volatile int fuelTank;
 
     public GasStation(int fuelTank) {
         this.fuelTank = fuelTank;
